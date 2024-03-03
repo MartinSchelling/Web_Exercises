@@ -1,0 +1,118 @@
+body {
+    background-color: #eee1d8;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+}
+
+.recipe-card {
+    background-color: white; 
+    margin: 10% 20%; 
+    padding: 30px; 
+    border-radius: 20px;
+}
+
+.cardMainImage {
+    width: 100%; 
+    border-radius: 10px;
+}
+
+h1, h2 {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+}
+
+h2 {
+    color: hsl(14, 45%, 36%);
+}
+
+.preparationTime h3 {
+    color: hsl(332, 51%, 32%);
+}
+
+.section {
+    margin-bottom: 2em;
+    margin: 40px 0px
+}
+
+.preparationTime {
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 10px;
+    padding: 15px 30px; 
+}
+
+ul, ol {
+    list-style-position: outside;
+    padding: 0 0 0 1em;
+}
+
+hr {
+border-top: 1px solid lightgray;
+}
+
+li {
+    margin-bottom: 1em;
+    padding-left: 1em;
+}
+
+li::marker {
+    color: hsl(14, 45%, 36%);
+  }
+
+table {
+    width: 100%;  
+}
+
+.cellTitle {
+    padding-left: 30px;
+}
+
+.cellData{
+    font-weight: 600;
+    color: hsl(14, 45%, 36%);
+}
+
+td {
+    height: 40px;
+    width: 50%;
+    border-bottom: 1px solid lightgray;
+}
+
+.nutrition {
+    margin-bottom: 1em;
+}
+
+.attribution {
+    text-align: center;
+    padding: 10px;
+}
+
+@media screen and (max-width: 600px) {
+
+    body {
+    background-color: white;
+    margin: 0
+   }
+
+    .recipe-card {
+        background-color: white; 
+        margin: 0;
+        padding:0;
+        border-radius: 0;
+    }
+    
+    .recipe-card-text {
+        padding: 20px; 
+    }
+
+    .cardMainImage {
+        width: 100%; 
+        border-radius: 0;
+    }
+
+    .attribution {
+        display:none;
+    }
+}
